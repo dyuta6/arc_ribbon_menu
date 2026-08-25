@@ -2,6 +2,11 @@
 
 A highly customizable, beautiful curved/arc ribbon selection list widget for Flutter. Ideal for creating circular/dial navigation interfaces, category selectors, or immersive visual lists.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dyuta6/arc_ribbon_menu/main/screenshots/demo.jpg" alt="Arc Ribbon Menu Demo" width="350"/>
+</p>
+
+
 ## Features
 
 - **Smooth Arc Scrolling**: Displays items on a circular curve path (ribbon dial).
