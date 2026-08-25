@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:arc_ribbon_menu/arc_ribbon_menu.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: []);
   runApp(const MyApp());
 }
 
@@ -13,6 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Arc Ribbon Menu Example',
       theme: ThemeData.dark(),
+      debugShowCheckedModeBanner: false,
       home: const HomeScreen(),
     );
   }
@@ -93,10 +97,8 @@ class HomeScreen extends StatelessWidget {
     ];
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Arc Ribbon Menu')),
-      body: SafeArea(
-        child: Column(
-          children: [
+      body: Column(
+        children: [
             const Padding(
               padding: EdgeInsets.all(16.0),
               child: Text(
@@ -169,7 +171,6 @@ class HomeScreen extends StatelessWidget {
             ),
           ],
         ),
-      ),
     );
   }
 }
