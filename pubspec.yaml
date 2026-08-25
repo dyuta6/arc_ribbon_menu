@@ -1,0 +1,17 @@
+name: arc_ribbon_menu
+description: A highly customizable curved/arc ribbon selection list widget for Flutter.
+version: 0.0.1
+homepage: https://github.com/dyuta6/arc_ribbon_menu
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0

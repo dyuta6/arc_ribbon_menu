@@ -1,0 +1,22 @@
+name: arc_ribbon_menu_example
+description: Demonstrates how to use the arc_ribbon_menu package.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  arc_ribbon_menu:
+    path: ../
+
+flutter:
+  uses-material-design: true
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
